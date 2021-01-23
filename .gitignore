@@ -1,0 +1,14 @@
+dist/bin/*
+.env*
+
+# VS CODE
+.vscode
+
+# IntelliJ
+.idea
+
+# MAC OS
+.DS_Store
+
+# GOLANG
+vendor/
