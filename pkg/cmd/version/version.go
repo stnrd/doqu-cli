@@ -28,5 +28,5 @@ func Format(version, buildDate string) string {
 		dateStr = fmt.Sprintf(" (%s)", buildDate)
 	}
 
-	return fmt.Sprintf("doqu version %s%s\n", version, dateStr)
+	return fmt.Sprintf("doqu cli version %s%s\n", version, dateStr)
 }

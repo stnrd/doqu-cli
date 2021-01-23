@@ -7,7 +7,7 @@ BUILDNAME=doqu
 
 # version linker
 SELF := $(shell pwd | sed 's/.*github.com/github.com/')
-LDFLAGS := -X github.com/stnrd/doqu-cli/version.version=$(shell git describe --tags)
+LDFLAGS := -X github.com/stnrd/doqu-cli/internal/build.Version=$(shell git describe --tags)
 
 build:
 	@rm -rf dist/bin
