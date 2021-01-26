@@ -19,7 +19,7 @@ all: vendor clean build test
 	echo "binary file is located under ${BUILDNAME}"
 
 vendor:
-	go env -w GOPRIVATE="github.com/stenraad"
+	go env -w GOPRIVATE="github.com/stnrd"
 	@echo "settings OK"
 
 test:
